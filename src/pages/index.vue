@@ -161,7 +161,9 @@ export default {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    background: url("@/static/cold.jpg");
+    background: url("@/static/cold.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
     position: relative;
     &__burger {
       display: none;

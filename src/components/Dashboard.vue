@@ -93,6 +93,7 @@ export default {
     right: -150%;
     transform: translateY(-50%);
     z-index: 999;
+    // max-height: 80vh;
     &__arrow{
       display: inline-block !important;
     }
